@@ -24,7 +24,7 @@ Locales = require('./locales');
 
 exec = require('cordova/exec');
 
-Storage = require('./storage')
+Storage = require('./storage');
 
 AppRate = (function() {
   var FLAG_NATIVE_CODE_SUPPORTED, LOCAL_STORAGE_COUNTER, PREF_STORE_URL_FORMAT_IOS, counter, getAppTitle, getAppVersion, promptForRatingWindowButtonClickHandler, showDialog, updateCounter;
